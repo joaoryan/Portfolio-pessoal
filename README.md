@@ -1,2 +1,4 @@
 # Portfolio-pessoal
-Portfolio feito usando Html e css
+Portfolio feito em html e css
+
+link:https://joaoryan.netlify.app/
