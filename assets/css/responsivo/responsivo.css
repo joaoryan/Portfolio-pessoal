@@ -1,0 +1,58 @@
+@media screen and (min-width: 100px) and (max-width: 800px) {
+  ul {
+    text-align: center;
+  }
+
+  /* HERO */
+  .hero {
+    padding: 0px;
+    height: auto;
+  }
+
+  .hero-title {
+    font-size: 26px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .hero-button {
+    display: block;
+    width: 100%;
+  }
+
+  /* MAIN CONTENT */
+  .main-content {
+    padding: 30px;
+  }
+
+  /* CONTATO */
+  .contato {
+    padding: 30px;
+  }
+
+  /* FOOTER */
+  .footer li.footer-list {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .lg-2 {
+    width: 20%;
+  }
+  .lg-3 {
+    width: 33.33333%;
+  }
+  .lg-5 {
+    width: 50%;
+  }
+  .lg-7 {
+    width: 66.66666%;
+  }
+  .lg-8 {
+    width: 80%;
+  }
+}
