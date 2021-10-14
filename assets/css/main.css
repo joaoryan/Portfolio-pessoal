@@ -117,15 +117,23 @@ a {
   text-align: center;
 }
 
-/* FIM MAIN CONTENT */
-
+/* Contato */
 .contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #294b64;
   height: auto;
   padding: 40px;
 }
-.contato a:hover {
-  width: 500px;
+img {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  margin: 5px;
+  width: 250px;
+  height: 45px;
 }
 .contatoTitulo a {
   display: flex;
@@ -199,19 +207,4 @@ span::before {
 p {
   color: #080808;
   font-size: 14px;
-}
-.contato {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.contato a,
-img {
-  display: flex;
-  justify-content: center;
-  border-radius: 50px;
-  margin: 5px;
-  width: 250px;
-  height: 50px;
 }
